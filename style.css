@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+    height: 400px;
+  }
+  li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    opacity: 0.5;
+  }
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+#logo{
+      width: 200px;
+      border-radius: 50%;
+  }
+  body{
+      background-color: black;
+  }
+  nav{
+      background-attachment: fixed;
+  }
+.name{
+    
+    color: white;
+}
+.split {
+    height: 100%;
+    width: 85%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    scroll-behavior: smooth;
+    
+  }
+  
+  .right {
+    right: 0;
+    background-color: black;
+  }
+  #kush {
+      color: white;
+      text-shadow: 20px,white;
+      margin-top: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      opacity: 0.5;
+      margin-left: 32%;
+      margin-top: 25%;
+      margin-right: 29%;
+      font-size: 50px;
+            
+  } 
+  #kush:hover{
+    animation: sum 3s infinite;  
+  }
+       
+#student {
+    color: white;
+      text-shadow: 20px,white;
+      font-family: Arial, Helvetica, sans-serif;
+      opacity: 0.5;
+      margin-left: 32%;
+      font-size: 45px;
+      margin-right: 31%;
+      font-weight: 500;
+}
+#student:hover{
+  animation: sum 3s infinite;  
+}
+#about{
+    color: white;
+    margin-top: 500px;
+    font-size: larger;
+    display: flex;
+    
+}
+#text1 {
+        background-color: black;
+        color: rgb(141, 123, 22);
+        width: 500px;
+        background-clip: padding-box;
+        display: flex;
+        padding: 50px 50px 50px 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 100px;
+        line-height: 1.3;
+    
+}
+#me{
+    width: 270px;
+    height: 250px;
+    margin-top: 100px;
+    
+}
+.skils{
+    color: white;
+    margin-top: 500px;
+}
+#o1{
+    font-size: 20px;
+    color: palegoldenrod;
+    line-height: 1.3;
+    display: block;
+}
+#h1
+{
+color: white;
+}
+.split {
+  overflow-y: scroll;
+}
+#skils{
+  color: white;
+  margin-top: 200%;
+}
+@keyframes sum {
+    0%{
+      text-shadow:5px 5px 4px red;
+    }
+    25%{text-shadow:5px 5px 4px blue;}
+    50%{text-shadow:5px 5px 4px yellow;}
+    75%{text-shadow:5px 5px 4px pink;}
+    100%{text-shadow:5px 5px 4px red;}
+}
+.Extrame{
+  color: white;
+    margin-top: 500px;
+}
