@@ -40,7 +40,7 @@ ul {
 }
 .split {
     height: 100%;
-    width: 85%;
+    width: 84%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -271,6 +271,7 @@ button {
   font-weight: 600;
   background-color: blue;
   border-radius: 5px;
+  height: 20px;
 }
 .skils .c{
   width: 60%;
@@ -283,4 +284,70 @@ button {
 }
 .skils .htm{
   width: 80%;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+  margin-left: 2mm;
+  margin-right: 0cm;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .colomn {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.colomn {
+  float: left;
+  width: 25%;
+  box-shadow: 103px 73px 17px 26px rgba(68, 68, 70, 0.22);
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .colomn {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .colomn {
+    width: 100%;
+  }
 }
