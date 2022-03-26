@@ -144,3 +144,19 @@ color: black;
   color: black;
 
 }
+#madal th, td, tr {
+  border: 1px solid;
+  
+}
+table{
+  width: 85%;
+}
+th{
+  height: 50px;
+  text-align: center;
+}
+td{
+  text-align: center;
+}
+tr:hover{ background-color: coral;}
+
