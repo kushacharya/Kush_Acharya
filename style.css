@@ -351,3 +351,26 @@ h1 {
     width: 100%;
   }
 }
+.contact{
+  margin-top: 500px;
+  color: black;
+}
+.contact h1{
+  text-align: center;
+}
+#insta{
+  margin-left: 13cm;
+  margin-top: 8cm;
+}
+#mail{
+  margin-left: 0.5cm;
+}
+#li{
+  margin-left: 0.5cm;
+}
+#git{
+  margin-left: 00.5cm;
+}
+#bt{
+  margin-bottom: 10cm;
+}
