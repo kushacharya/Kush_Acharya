@@ -163,9 +163,14 @@ color: black;
 #madal th, td, tr {
   border: 1px solid;
   font-size: 26;
+  border-radius: 10%;
+  
 }
 table{
   width: 85%;
+  background-image: url("image/istockphoto-1169144593-612x612.jpg");
+  border-radius: 5%;
+  box-shadow: 103px 73px 17px 26px rgba(68, 68, 70, 0.22);
 }
 th{
   height: 50px;
@@ -253,4 +258,29 @@ button {
   height: 200px;
   background-color: red; /* For browsers that do not support gradients */
   background-image: linear-gradient(red, yellow);
+}
+.skils h1{
+  color: black;
+
+}
+.skils .skill{
+  text-align: right;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: black;
+  font-weight: 600;
+  background-color: blue;
+  border-radius: 5px;
+}
+.skils .c{
+  width: 60%;
+}
+.skils .java{
+  width: 45%;
+}
+.skils .python{
+  width: 50%;
+}
+.skils .htm{
+  width: 80%;
 }
