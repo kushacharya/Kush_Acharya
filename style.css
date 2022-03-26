@@ -152,11 +152,17 @@ color: black;
 }
 #e1{
   color: black;
-
+  background-color: antiquewhite;
+  display: flexbox;
+  margin: 10;
+  margin-right: 300px;
+  border-radius: 10%;
+  font-size: 20;
+  box-shadow: 103px 73px 17px 26px rgba(68, 68, 70, 0.22);
 }
 #madal th, td, tr {
   border: 1px solid;
-  
+  font-size: 26;
 }
 table{
   width: 85%;
