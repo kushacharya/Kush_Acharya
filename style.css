@@ -7,33 +7,33 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: black;
+    background-color: whitesmoke;
     height: 400px;
   }
   li a {
     display: block;
-    color: white;
+    color: black;
     padding: 8px 16px;
     text-decoration: none;
     opacity: 0.5;
   }
   li a:hover {
     background-color: #555;
-    color: white;
+    color: black;
   }
 #logo{
       width: 200px;
       border-radius: 50%;
   }
   body{
-      background-color: black;
+      background-color: whitesmoke;
   }
   nav{
       background-attachment: fixed;
   }
 .name{
     
-    color: white;
+    color: black;
 }
 .split {
     height: 100%;
@@ -49,10 +49,10 @@ ul {
   
   .right {
     right: 0;
-    background-color: black;
+    background-color: whitesmoke;
   }
   #kush {
-      color: white;
+      color: black;
       text-shadow: 20px,white;
       margin-top: 50px;
       font-family: Arial, Helvetica, sans-serif;
@@ -68,7 +68,7 @@ ul {
   }
        
 #student {
-    color: white;
+    color: black;
       text-shadow: 20px,white;
       font-family: Arial, Helvetica, sans-serif;
       opacity: 0.5;
@@ -81,15 +81,15 @@ ul {
   animation: sum 3s infinite;  
 }
 #about{
-    color: white;
+    color: black;
     margin-top: 500px;
     font-size: larger;
     display: flex;
     
 }
 #text1 {
-        background-color: black;
-        color: rgb(141, 123, 22);
+        background-color: whitesmoke;
+        color: black;
         width: 500px;
         background-clip: padding-box;
         display: flex;
@@ -103,27 +103,28 @@ ul {
     width: 270px;
     height: 250px;
     margin-top: 100px;
-    
+    border-radius: 10%;
+    box-shadow: 103px 73px 17px 26px rgba(68, 68, 70, 0.22);
 }
 .skils{
-    color: white;
+    color: black;
     margin-top: 500px;
 }
 #o1{
     font-size: 20px;
-    color: palegoldenrod;
+    color: black;
     line-height: 1.3;
     display: block;
 }
 #h1
 {
-color: white;
+color: black;
 }
 .split {
   overflow-y: scroll;
 }
 #skils{
-  color: white;
+  color: black;
   margin-top: 200%;
 }
 @keyframes sum {
@@ -136,6 +137,10 @@ color: white;
     100%{text-shadow:5px 5px 4px red;}
 }
 .Extrame{
-  color: white;
+  color: black;
     margin-top: 500px;
+}
+#e1{
+  color: black;
+
 }
