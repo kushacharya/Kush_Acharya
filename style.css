@@ -254,11 +254,7 @@ button {
    transform: translate(-50%, -75%) rotate(360deg);
   }
  }
- #grad {
-  height: 200px;
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(red, yellow);
-}
+
 .skils h1{
   color: black;
 
